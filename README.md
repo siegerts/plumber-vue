@@ -1,6 +1,6 @@
 # plumber-vue
 
-Initial project structure illustrating the use of an R-based [Plumber API](https://github.com/rstudio/plumber) with a [Vue](https://vuejs.org/) frontend, using Vue CLI.
+Project structure showing the use of an R-based [Plumber API](https://github.com/rstudio/plumber) with a [Vue](https://vuejs.org/) frontend, using Vue CLI.
 
 ## Project Structure
 
@@ -46,7 +46,7 @@ module.exports = {
 };
 ```
 
-The `env` variables are defined in a `.env` file in the `/js` root.
+The `env` variables are defined in a [`.env`](https://cli.vuejs.org/guide/mode-and-env.html#environment-variables) file in the `/js` root.
 
 ```ini
 CONNECT_URL=<for deployment on RStudio Connect>
